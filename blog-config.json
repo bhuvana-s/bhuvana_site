@@ -1,0 +1,49 @@
+{
+  "maxPosts": 3,
+  "sources": {
+    "devto": {
+      "name": "Dev.to",
+      "username": "bhuvanas",
+      "enabled": true
+    },
+    "medium": {
+      "name": "Medium",
+      "username": "bhuvaneswari.subramani",
+      "enabled": true
+    }
+  },
+  "fallbackPosts": [
+    {
+      "title": "AI-DLC: Revolutionizing Development Lifecycle with AI",
+      "excerpt": "Exploring how AI-Driven Development Life Cycle is transforming the way we build and deploy applications in the cloud era. Learn about the key principles and implementation strategies.",
+      "url": "https://dev.to/bhuvanas",
+      "source": "Dev.to",
+      "publishedAt": "2024-01-15",
+      "readingTime": "5 min read"
+    },
+    {
+      "title": "Cloud Modernization Strategies for Enterprise Applications",
+      "excerpt": "A comprehensive guide to modernizing legacy applications using cloud-native technologies, microservices architecture, and DevOps best practices for scalable solutions.",
+      "url": "https://medium.com/@bhuvaneswari.subramani",
+      "source": "Medium",
+      "publishedAt": "2024-01-10",
+      "readingTime": "7 min read"
+    },
+    {
+      "title": "Women in Tech: Breaking Barriers in Cloud Computing",
+      "excerpt": "Sharing insights on leadership, mentorship, and creating inclusive environments in the technology industry. Empowering the next generation of women leaders.",
+      "url": "https://dev.to/bhuvanas",
+      "source": "Dev.to",
+      "publishedAt": "2024-01-05",
+      "readingTime": "4 min read"
+    }
+  ],
+  "updateFrequency": "daily",
+  "cacheTimeout": 3600000,
+  "displayOptions": {
+    "showReadingTime": true,
+    "showPublishDate": true,
+    "showSource": true,
+    "truncateExcerpt": 150
+  }
+}
