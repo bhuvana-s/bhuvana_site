@@ -513,6 +513,20 @@ section {
     color: var(--primary-yellow);
 }
 
+.blog-link-grey {
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.blog-link-grey:hover {
+    color: var(--dark-gray);
+}
+
 .blog-sources {
     display: flex;
     justify-content: center;
@@ -676,6 +690,13 @@ section {
 
 .achievement-year {
     color: var(--primary-yellow);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.achievement-year-grey {
+    color: var(--dark-gray);
     font-weight: 600;
     margin-bottom: 0.8rem;
     font-size: 0.9rem;
