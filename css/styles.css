@@ -602,7 +602,7 @@ section {
     flex: 0 0 200px;
     text-align: center;
     font-weight: 600;
-    color: var(--primary-yellow);
+    color: var(--dark-gray);
     font-size: 1.1rem;
     padding: 1rem;
 }
