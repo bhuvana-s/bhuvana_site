@@ -1149,6 +1149,27 @@ html {
     line-height: 1.6;
 }
 
+.publication-isbn {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    margin-bottom: 0.75rem;
+}
+
+.publication-links {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+}
+
+.publication-links a {
+    color: var(--primary-yellow);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.publication-links a:hover {
+    opacity: 0.8;
+}
+
 /* Focus styles for accessibility */
 .nav-link:focus,
 .btn:focus,
